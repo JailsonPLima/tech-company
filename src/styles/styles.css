@@ -1,3 +1,13 @@
+:root {
+  --white: #fafafa;
+  --black: #262626;
+  --light-gray: #d9d9d9;
+  --dark-gray: #bfbfbf;
+  --lilac: #ce8bee;
+  --green: #abe749;
+  --blur-color: rgba(38 38 38 / 0.8);
+}
+
 * {
   margin: 0;
   padding: 0;
