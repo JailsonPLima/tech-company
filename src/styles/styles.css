@@ -16,6 +16,7 @@
 
 body {
   background-color: var(--white);
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -101,6 +102,7 @@ ul {
   border-radius: 0.75rem;
   color: var(--black);
   font-size: 0.875rem;
+  font-weight: 600;
 }
 
 .m-login-signup__link:last-of-type {
