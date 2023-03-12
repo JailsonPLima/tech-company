@@ -246,6 +246,9 @@ ul {
 }
 
 .m-shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-radius: 1rem;
   background-color: var(--light-gray);
   padding: .875rem 1.75rem;
@@ -268,6 +271,11 @@ ul {
   margin-top: .5rem;
 }
 
+.m-shop__icon {
+  font-size: 2.25rem;
+  color: var(--black);
+}
+
 .l-content__products {
   background-color: var(--black);
   color: var(--white);
@@ -286,6 +294,21 @@ ul {
 .l-content__contact {
   background-color: var(--green);
   color: var(--black);
+}
+
+.l-content__icon {
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+  font-size: 3rem;
+  transform: rotate(45deg);
+}
+
+.l-content__icon.bx-paper-plane {
+  font-size: 2.25rem;
+  right: .875rem;
+  top: .875rem;
+  transform: rotate(0deg);
 }
 
 /* media querie for 576px */
