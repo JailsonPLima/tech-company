@@ -217,12 +217,17 @@ ul {
   gap: 1.5rem;
 }
 
+.l-content > a, 
 .l-content > div {
   display: flex;
   flex-direction: column;
   position: relative;
   padding: 2rem 1.5rem;
   border-radius: 1.75rem;
+}
+
+.l-content > a {
+  cursor: pointer;
 }
 
 .l-content__span {
@@ -322,7 +327,7 @@ ul {
     padding: 3rem 0;
   }
 
-  .l-content > div {
+  .l-content > a {
     padding: 2rem 2rem;
   }
 
