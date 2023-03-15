@@ -1,6 +1,8 @@
 const menu = document.querySelector(".m-menu");
 const nav = document.querySelector(".m-nav");
 const links = [...document.querySelectorAll(".m-link")];
+const favicon = document.getElementById("favicon");
+const isDark = window.matchMedia("(prefers-color-scheme: dark)");
 
 function toggleMenuAndNav() {
   menu.classList.toggle("is-active");
@@ -16,3 +18,10 @@ function onFakeLinkClick() {
 links.map((element) => {
   element.addEventListener("click", onFakeLinkClick);
 });
+
+const setFavicon = () => {
+  if (isDark) favicon.href = "./public/logo-dark.svg";
+  else favicon.href = "./public/logo-light.svg";
+};
+
+setFavicon();
