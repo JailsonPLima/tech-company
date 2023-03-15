@@ -246,10 +246,6 @@ ul {
   transition: margin .2s ease;
 }
 
-.l-content > a:not(.l-content__products):hover {
-  margin-top: -.5rem;
-}
-
 .l-content__span {
   font-size: .875rem;
   font-weight: 600;
@@ -365,6 +361,10 @@ ul {
 
   .l-content > a {
     padding: 2rem 2rem;
+  }
+
+  .l-content > a:not(.l-content__products):hover {
+    margin-top: -.5rem;
   }
 
   .l-content .l-content__products {

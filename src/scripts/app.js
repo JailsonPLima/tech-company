@@ -20,8 +20,8 @@ links.map((element) => {
 });
 
 const setFavicon = () => {
-  if (isDark) favicon.href = "./public/logo-dark.svg";
-  else favicon.href = "./public/logo-light.svg";
+  if (isDark) favicon.href = "./public/logo-dark.ico";
+  else favicon.href = "./public/logo-light.ico";
 };
 
 setFavicon();
