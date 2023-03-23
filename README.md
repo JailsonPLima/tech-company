@@ -8,7 +8,12 @@ Uma simples landing page sobre uma empresa fictícia de tecnologia.
 
 ## Layout mobile
 
+![mobile-1](https://github.com/JailsonPLima/tech-company/blob/main/public/assets/images/mobile-1.png)
+![mobile-2](https://github.com/JailsonPLima/tech-company/blob/main/public/assets/images/mobile-2.png)
+
 ## Layout web
+
+![desktop](https://github.com/JailsonPLima/tech-company/blob/main/public/assets/images/desktop.png)
 
 # Tecnologias 
 
