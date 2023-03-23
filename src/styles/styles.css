@@ -47,6 +47,9 @@ ul {
 
 .l-container {
   height: 100%;
+  width: 100%;
+  max-width: 87.5rem;
+  margin: 0 auto;
   padding: 2rem 1.5rem;
 }
 
