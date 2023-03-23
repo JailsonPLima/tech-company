@@ -4,7 +4,9 @@
 
 # Sobre o projeto
 
-Uma simples landing page sobre uma empresa fictícia de tecnologia.
+Uma simples landing page sobre uma empresa fictícia de tecnologia. Esse projeto serviu para testar meus conhecimentos sobre a base do desenvolvimento web.
+
+O layout foi baseado neste [pin](https://br.pinterest.com/pin/656681189434982739/) do Pinterest. Que me leva ao Dribbble do(a) autor(a): https://dribbble.com/tubik_ux.
 
 ## Layout mobile
 
